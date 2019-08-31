@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="index.js"></script>
+    <style type="text/css">
+        /* {
+          border: 0;
+          margin: 0;
+          padding: 0;
+        } */
+        body, html {
+          font-family: "Times New Roman", serif;
+          font-size: 12pt;
+          height: 100%;
+        }
+        #container {
+          height: 100%;
+          line-height: .9em;
+          margin-left: auto;
+          margin-right: auto;
+          position: relative;
+          width: 100%;
+          pointer-events:none;
+          position: fixed;
+          top:0;
+          left: 0;
+
+        }
+        .confetti {
+            position: absolute;
+                width: 11px;
+                height: 17px;
+                display: inline-block;
+                background: red;
+                top: 34px;
+                left: 21px;
+          }
+          .animate{
+              transform: translate(100vh);
+              transition:2s liniar ease-in-out;
+          }
+          </style>
+</head>
+<body>
+    <button onclick="alert()" >Click me</button>
+    <div id=container></div>
+</body>
+</html>
